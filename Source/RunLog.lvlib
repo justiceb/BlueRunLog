@@ -78,7 +78,6 @@
 		<Item Name="runlog shutdown lib.vi" Type="VI" URL="../SubVIs/runlog shutdown lib.vi"/>
 		<Item Name="RunLog text selection build.vi" Type="VI" URL="../SubVIs/RunLog text selection build.vi"/>
 		<Item Name="runlog text selection.vi" Type="VI" URL="../SubVIs/runlog text selection.vi"/>
-		<Item Name="runlog UI launcher.vi" Type="VI" URL="../SubVIs/runlog UI launcher.vi"/>
 		<Item Name="runlog v3 loop data.ctl" Type="VI" URL="../SubVIs/runlog v3 loop data.ctl"/>
 		<Item Name="runlog visibility change.vi" Type="VI" URL="../SubVIs/runlog visibility change.vi"/>
 		<Item Name="runlog write lib child.vi" Type="VI" URL="../SubVIs/runlog write lib child.vi"/>
