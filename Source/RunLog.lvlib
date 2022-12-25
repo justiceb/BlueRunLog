@@ -112,10 +112,10 @@
 		<Item Name="RunLogFileOpsNew.vi" Type="VI" URL="../SubVIs/RunLogFileOpsNew.vi"/>
 		<Item Name="Create WaitforFinishNotifier.vi" Type="VI" URL="../SubVIs/Create WaitforFinishNotifier.vi"/>
 		<Item Name="WaitOn WaitForFinish Notifier.vi" Type="VI" URL="../SubVIs/WaitOn WaitForFinish Notifier.vi"/>
+		<Item Name="FileOpsData.ctl" Type="VI" URL="../SubVIs/FileOpsData.ctl"/>
+		<Item Name="runlog shutdown.vi" Type="VI" URL="../SubVIs/runlog shutdown.vi"/>
+		<Item Name="runlog write to logger.vi" Type="VI" URL="../SubVIs/runlog write to logger.vi"/>
 	</Item>
 	<Item Name="Demo.vi" Type="VI" URL="../Demo.vi"/>
-	<Item Name="FileOpsData.ctl" Type="VI" URL="../SubVIs/FileOpsData.ctl"/>
-	<Item Name="runlog shutdown.vi" Type="VI" URL="../SubVIs/runlog shutdown.vi"/>
-	<Item Name="runlog write to logger.vi" Type="VI" URL="../SubVIs/runlog write to logger.vi"/>
 	<Item Name="RunLog.lvclass" Type="LVClass" URL="../Classes/RunLog/RunLog.lvclass"/>
 </Library>
