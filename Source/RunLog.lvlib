@@ -33,6 +33,11 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="Loggers" Type="Folder">
+		<Item Name="RunLogger - lvrlog.lvclass" Type="LVClass" URL="../Classes/RunLogger - lvrlog/RunLogger - lvrlog.lvclass"/>
+		<Item Name="RunLogger - txt.lvclass" Type="LVClass" URL="../Classes/RunLogger - txt/RunLogger - txt.lvclass"/>
+		<Item Name="RunLogger.lvclass" Type="LVClass" URL="../Classes/RunLogger/RunLogger.lvclass"/>
+	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="DataStructure_font.vi" Type="VI" URL="../SubVIs/DataStructure_font.vi"/>
@@ -92,7 +97,25 @@
 		<Item Name="escape strategy number to enum.vi" Type="VI" URL="../SubVIs/escape strategy number to enum.vi"/>
 		<Item Name="runlog unflatten log.vi" Type="VI" URL="../SubVIs/runlog unflatten log.vi"/>
 		<Item Name="array to string padded.vi" Type="VI" URL="../SubVIs/array to string padded.vi"/>
+		<Item Name="Namespace visible map.ctl" Type="VI" URL="../SubVIs/Namespace visible map.ctl"/>
+		<Item Name="Sanitize Namespace.vi" Type="VI" URL="../SubVIs/Sanitize Namespace.vi"/>
+		<Item Name="Load log open.vi" Type="VI" URL="../SubVIs/Load log open.vi"/>
+		<Item Name="LoadLogOptions.ctl" Type="VI" URL="../SubVIs/LoadLogOptions.ctl"/>
+		<Item Name="LogLoad.ctl" Type="VI" URL="../SubVIs/LogLoad.ctl"/>
+		<Item Name="ReadTDMS.vi" Type="VI" URL="../SubVIs/ReadTDMS.vi"/>
+		<Item Name="Load Poll Process.vi" Type="VI" URL="../SubVIs/Load Poll Process.vi"/>
+		<Item Name="Stop Load Stream.vi" Type="VI" URL="../SubVIs/Stop Load Stream.vi"/>
+		<Item Name="FileOpsOpenData.ctl" Type="VI" URL="../SubVIs/FileOpsOpenData.ctl"/>
+		<Item Name="Poll Load Log.vi" Type="VI" URL="../SubVIs/Poll Load Log.vi"/>
+		<Item Name="FileOpsCloseData.ctl" Type="VI" URL="../SubVIs/FileOpsCloseData.ctl"/>
+		<Item Name="RunLogFileOpsClose.vi" Type="VI" URL="../SubVIs/RunLogFileOpsClose.vi"/>
+		<Item Name="RunLogFileOpsNew.vi" Type="VI" URL="../SubVIs/RunLogFileOpsNew.vi"/>
+		<Item Name="Create WaitforFinishNotifier.vi" Type="VI" URL="../SubVIs/Create WaitforFinishNotifier.vi"/>
+		<Item Name="WaitOn WaitForFinish Notifier.vi" Type="VI" URL="../SubVIs/WaitOn WaitForFinish Notifier.vi"/>
 	</Item>
 	<Item Name="Demo.vi" Type="VI" URL="../Demo.vi"/>
+	<Item Name="FileOpsData.ctl" Type="VI" URL="../SubVIs/FileOpsData.ctl"/>
+	<Item Name="runlog shutdown.vi" Type="VI" URL="../SubVIs/runlog shutdown.vi"/>
+	<Item Name="runlog write to logger.vi" Type="VI" URL="../SubVIs/runlog write to logger.vi"/>
 	<Item Name="RunLog.lvclass" Type="LVClass" URL="../Classes/RunLog/RunLog.lvclass"/>
 </Library>
